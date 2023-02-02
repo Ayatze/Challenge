@@ -48,11 +48,12 @@ main{
     background-repeat: no-repeat;
     border: none;
     border-radius: 30px;
+   text-align: center;
     color: blueviolet;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
+    position: absolute
 }
 
 .mensaje:focus{
@@ -79,7 +80,7 @@ main{
     background-color: whitesmoke;
     border: 1px solid blueviolet;
     border-radius: 40px;
-    opacity: ;
+    opacity: 0.7;
     color: blueviolet;
     cursor: pointer;
     margin-left: 30px;
@@ -104,4 +105,14 @@ main{
 .info{
     color: black;
     font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+.logofooter{
+    width: 2%;
 }
