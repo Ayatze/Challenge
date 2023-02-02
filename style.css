@@ -1,0 +1,107 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: blueviolet;
+}
+
+body{
+    background-image: url("/Imagenes/Fondo.jpg");
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+    opacity: 0.7;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.area-texto{
+    background: white;
+    opacity: 0.5;
+    border: none;
+    border-radius: 30px;
+    color: blueviolet;
+    margin-top: 20px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+::placeholder { color: blueviolet}
+    .area-texto:focus{
+        outline: none;
+    }
+
+.mensaje {
+    background: whitesmoke;
+    opacity: 0.5;
+    background-image: url("/Imagenes/Mensaje.png");
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 30px;
+    color: blueviolet;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton-encriptar{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 40px;
+    opacity: 0.7;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.boton-desencriptar{
+    background-color: whitesmoke;
+    border: 1px solid blueviolet;
+    border-radius: 40px;
+    opacity: ;
+    color: blueviolet;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar{
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border: 1px solid blueviolet;
+    border-radius: 40px;
+    color: blueviolet;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 402px;
+    position: absolute;
+    width: 328px;
+}
+
+.info{
+    color: black;
+    font-size: 18px;
+}
